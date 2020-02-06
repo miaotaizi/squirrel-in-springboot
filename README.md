@@ -6,3 +6,5 @@
 
 ### 测试
 修改 `application.yaml` 的相关参数, 运行访问 [OrderController](./src/main/java/com/miaotaizi/statemachinedemo/controller/OrderController.java) 定义的路由即可
+
+> 数据持久化使用的是 `mybatis-plus` 并非本 demo 的重点
