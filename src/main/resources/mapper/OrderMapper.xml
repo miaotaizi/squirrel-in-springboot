@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.miaotaizi.statemachinedemo.mapper.OrderMapper">
+  <resultMap id="BaseResultMap" type="com.miaotaizi.statemachinedemo.entity.Order">
+    <!--@mbg.generated-->
+    <!--@Table order-->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="state" jdbcType="VARCHAR" property="state" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, `state`
+  </sql>
+</mapper>
